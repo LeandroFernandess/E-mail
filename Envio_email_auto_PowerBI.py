@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 # Definindo a variável do dia atual:
-Hoje = datetime.now().date() # Obtém a data atua
+Hoje = datetime.now().date() # Obtém a data atual
 Hoje = Hoje.strftime('%d/%m/%Y')
 # Enviando o e-mail:
     # Cria uma instância no Outlook:
